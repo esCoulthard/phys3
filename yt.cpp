@@ -42,6 +42,6 @@ float calculator() {
 
 int main()
 {
-  cout << reverseString() << endl;
+  cout << calculator() << endl;
   return 0;
 }
