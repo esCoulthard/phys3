@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-string myf() {
+string reverseString() {
 
-    string x = "AHHHHH";
+    string x = "qrt";
     cout << "Please GIVE ME A STRING" << "\n";
     cin >> x;
     string q;
@@ -17,6 +17,6 @@ string myf() {
 
 int main()
 {
-  cout << myf() << endl;
+  cout << reverseString() << endl;
   return 0;
 }
