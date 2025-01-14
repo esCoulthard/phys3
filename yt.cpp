@@ -4,7 +4,7 @@ using namespace std;
 
 string reverseString() {
 
-    string x = "qrt";
+    string x = "q";
     cout << "Please GIVE ME A STRING" << "\n";
     cin >> x;
     string q;
