@@ -19,7 +19,7 @@ float calculator() {
   int a;
   int b;
   char q;
-  int c;
+  float c;
 
   cout << "Please give me two numbers" << "\n";
   cout << "Number one:";
@@ -34,13 +34,26 @@ float calculator() {
     cout << "I HATE YOU!!!!!!";
     return 0;
   }
-  else {
-    float c;
-    c = a q b
+  else if (q == '+') {
+    c = a + b;
     cout << c;
     return 0;
   }
-
+  else if (q == '-') {
+    c = a - b;
+    cout << c;
+    return 0;
+  }
+  else if (q == '/') {
+    c = a / b;
+    cout << c;
+    return 0;
+  }
+  else if (q == '*') {
+    c = a * b;
+    cout << c;
+    return 0;
+  }
   
 
 }
