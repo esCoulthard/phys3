@@ -27,7 +27,6 @@ float calculator() {
   cout << "Please give me two numbers" << "\n";
   cout << "Number one:";
   cin >> a;
-  cout << "/n";
   cout << "Number two:";
   cin >> b;
   cout << "/n" << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:";
