@@ -71,7 +71,7 @@ int main()
   int oo;
   while(oo <= 1000){
     oo += 1;
-    cout << oo;
+    cout << oo << "\n";
   }
   return 0;
 }
