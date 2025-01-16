@@ -16,6 +16,11 @@ using namespace std;
 // }
 
 float calculator() {
+  int a;
+  char b;
+  int q;
+  int c;
+
   cout << "Please give me two numbers" << "\n";
   cout << "Number one:";
   cin >> a;
@@ -25,7 +30,7 @@ float calculator() {
   cout << "/n" << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:";
   cin >> q;
   cout << "\n" << "Thank you!" << "\n";
-  if (b == 0 && q == /) {
+  if (b == 0 && q == "/") {
     cout << "I HATE YOU!!!!!!";
     return 0;
   }
