@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <typeinfo>
 using namespace std;
 
 string reverseString() {
@@ -16,8 +17,8 @@ string reverseString() {
 }
 
 float calculator() {
-  int a;
-  int b;
+  float a;
+  float b;
   char q;
   float c;
   #include <iostream>
@@ -29,11 +30,19 @@ float calculator() {
   cin >> a;
   cout << "Number two:";
   cin >> b;
-  cout << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:";
+  if (typeid(a) != typeid(float) or typeid(b) != typeid(float) ){
+    cout << "Please pick numbers :)";
+  }
+  else {
+    cout << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:" << "\n";
+  }
   cin >> q;
-  cout << "Thank you!";
-  if (b == 0 && q == '/') {
-    cout << "\n" << "I HATE YOU!!!!!!";
+
+  if (q != '/' or q != '*' or q != '+' or q != '-'){
+    cout << "please pick /, *, + or -";
+  }
+  else if (b == 0 && q == '/') {
+    cout << "I HATE YOU!!!!!!";
     c = 0;
   }
   else if (q == '+') {
