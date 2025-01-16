@@ -38,7 +38,7 @@ float calculator() {
   }
   cin >> q;
 
-  if (q != '/' or q != '*' or q != '+' or q != '-'){
+  if (q != '/' and q != '*' and q != '+' and q != '-'){
     cout << "please pick /, *, + or -";
   }
   else if (b == 0 && q == '/') {
@@ -68,5 +68,10 @@ float calculator() {
 int main()
 {
   cout << calculator() << endl;
+  int oo;
+  while(oo <= 1000){
+    oo += 1;
+    cout << oo;
+  }
   return 0;
 }
