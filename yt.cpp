@@ -69,7 +69,7 @@ int main()
 {
   cout << calculator() << endl;
   int oo;
-  while(oo <= 1000){
+  while(oo <= 1e6){
     oo += 1;
     cout << oo << "\n";
   }
