@@ -20,6 +20,9 @@ float calculator() {
   int b;
   char q;
   float c;
+  #include <iostream>
+  #include <string>
+  using namespace std;
 
   cout << "Please give me two numbers" << "\n";
   cout << "Number one:";
