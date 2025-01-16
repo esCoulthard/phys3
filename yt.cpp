@@ -29,34 +29,29 @@ float calculator() {
   cin >> a;
   cout << "Number two:";
   cin >> b;
-  cout << "/n" << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:";
+  cout << "Thank you!" << "\n" << "Now, please pick something to do with them" << "\n" << "Operation Style:";
   cin >> q;
-  cout << "\n" << "Thank you!" << "\n";
+  cout << "Thank you!";
   if (b == 0 && q == '/') {
     cout << "I HATE YOU!!!!!!";
-    return 0;
   }
   else if (q == '+') {
     c = a + b;
-    cout << c;
-    return 0;
+
   }
   else if (q == '-') {
     c = a - b;
-    cout << c;
-    return 0;
+
   }
   else if (q == '/') {
     c = a / b;
-    cout << c;
-    return 0;
+
   }
   else if (q == '*') {
     c = a * b;
-    cout << c;
-    return 0;
+
   }
-  return 0;
+  return c;
 
 }
 
