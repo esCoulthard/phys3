@@ -33,6 +33,7 @@ float calculator() {
   cin >> q;
   cout << "Thank you!";
   if (b == 0 && q == '/') {
+    string c;
     c = "I HATE YOU!!!!!!";
   }
   else if (q == '+') {
