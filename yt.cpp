@@ -5,6 +5,7 @@ using namespace std;
 
 string reverseString() {
 
+
     string x = "q";
     cout << "Please GIVE ME A STRING" << "\n";
     cin >> x;
@@ -69,7 +70,7 @@ int main()
 {
   cout << calculator() << endl;
   int oo;
-  while(oo <= 1e6){
+  while(oo <= 2e6){
     oo += 1;
     cout << oo << "\n";
   }
